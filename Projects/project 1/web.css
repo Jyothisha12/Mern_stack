@@ -1,0 +1,88 @@
+@media only screen and (max-width:3000px)
+{
+body {
+    background-color: #757987;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height: 100px;
+}
+
+header {
+    background-color:#500715;
+    color:white;
+    width: 100vw;
+    padding: 10px 0;
+}
+.navbar1{
+    width: 100vw;
+    float:left;
+}
+#tours{
+    margin-left: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#slideshow {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+bac.fade {
+    animation: fade 1.5s infinite;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+main {
+    padding: 20px;
+}
+footer {
+    background-color:#410410;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+}
+/* @media(max-width:1200px){
+    .navbar{
+        
+    }
+    */
